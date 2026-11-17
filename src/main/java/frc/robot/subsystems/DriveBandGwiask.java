@@ -25,8 +25,8 @@ public class DriveBandGwiask extends SubsystemBase {
         return Commands.run(() -> {
            double forward = getLeftY.getAsDouble();
            double turn = -getRightX.getAsDouble();
-           double leftPercentOutput = -forward;
-           double rightPercentOutput = forward;
+           double leftPercentOutput = forward;
+           double rightPercentOutput = -forward;
 
 
 
